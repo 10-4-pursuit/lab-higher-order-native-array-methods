@@ -40,6 +40,8 @@ function getSongDetails(songs) {
  *  //> [ { "Berlin Tsukin": "Taiyo Ky" }, { Up: "Sebastian Kamae" }, ... ]
  */
 function getTitleAndArtist(songs) {
+  let arr = []
+  
  songs.map(song => {
     let obj = {};
 
